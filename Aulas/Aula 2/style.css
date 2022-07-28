@@ -1,3 +1,16 @@
+body{
+    background-image: url(imagens/shikamaru.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top left;
+    
+}
+
 strong{
     color: red;
+}
+
+#principal{
+    background-color: rgba(71, 211, 157, 0.551);
 }
