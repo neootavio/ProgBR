@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
 body{
     /*background-image: url(imagens/shikamaru.jpg);*/
     background-repeat: no-repeat;
@@ -50,3 +52,103 @@ strong{
     width: 1pc;
     height: 1pc;
 }
+
+.container{
+    font-size: 25px;
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+}
+
+.inside{
+    font-size: 2em;
+    width: 100%;
+    background-color: blue;
+    color: white;
+}
+
+#base{
+    height: 10px;
+    background-color: red;
+}
+
+#container{
+    background-color: blue;
+    color: white;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.borda{
+    border-style: solid;
+    border-width: 5px;
+    border-color: blue;
+    border-radius: 5px;
+}
+
+.quadrado{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}
+
+p{
+    color: blueviolet;
+
+    text-align: justify;
+
+    text-transform: capitalize;
+
+    text-indent: 35px;
+
+    text-decoration: line-through;
+
+    letter-spacing: 2px;
+
+    line-height: 25px;
+
+    word-spacing: 15px;
+
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.133);
+}
+
+a{
+    text-decoration: none;
+}
+
+#aulaFonte{
+    font-family: 'Square Peg';
+    text-decoration: none;
+
+    font-style: italic;
+
+    font-size: 1em;
+
+    font-weight: bold;
+
+}
+
+.links{
+
+    margin: 25px;
+
+    color: white;
+    background-color: blueviolet;
+
+    padding: 5px;
+
+    border-radius: 10px;
+
+}
+
+.links:visited{
+    color: red;
+}
+
+.links:hover{
+    background-color: rgb(170, 119, 218);
+    color: aliceblue;
+
+    
+}
+
