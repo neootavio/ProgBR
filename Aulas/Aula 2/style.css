@@ -1,5 +1,5 @@
 body{
-    background-image: url(imagens/shikamaru.jpg);
+    /*background-image: url(imagens/shikamaru.jpg);*/
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -13,4 +13,40 @@ strong{
 
 #principal{
     background-color: rgba(71, 211, 157, 0.551);
+}
+
+#cm{
+    background-color: blue;
+    width: 1cm;
+    height: 1cm;
+}
+
+#mm{
+    background-color: red;
+    width: 5mm;
+    height: 5mm;
+}
+
+#in{
+    background-color: blue;
+    width: 1in;
+    height: 1in;
+}
+
+#px{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+}
+
+#pt{
+    background-color: blue;
+    width: 10pt;
+    height: 10pt;
+}
+
+#pc{
+    background-color: red;
+    width: 1pc;
+    height: 1pc;
 }
